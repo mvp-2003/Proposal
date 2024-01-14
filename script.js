@@ -5,7 +5,7 @@ button2.addEventListener('mouseover', function() {
 });
 
 document.getElementById('btn1').addEventListener('click', function() {
-    alert('You clicked Yes!');
+    document.getElementById('btn1').style.backgroundColor = 'red';
 });
 
 function createHeart() {
