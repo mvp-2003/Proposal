@@ -5,7 +5,13 @@ button2.addEventListener('mouseover', function() {
 });
 
 document.getElementById('btn1').addEventListener('click', function() {
-    document.getElementById('btn1').style.backgroundColor = 'red';
+    const btn1 = document.getElementById('btn1');
+    const originalColor = btn1.style.backgroundColor;
+    btn1.style.backgroundColor = 'red';
+
+    setTimeout(function() {
+        btn1.style.backgroundColor = originalColor;
+    }, 3000);
 });
 
 function createHeart() {
