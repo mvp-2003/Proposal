@@ -15,15 +15,23 @@ body {
 #btn1, #btn2 {
     position: absolute;
     top: 55%;
-    width: 70px;
-    height: 30px;
+    width: 100px;
+    height: 50px;
     background-color: dodgerblue;
     padding: 10px;
     transition: .5s;
+    border-radius: 25px;
+    border: none;
+    color: white;
+    font-size: 18px;
 }
 #btn1 {
-    left: 45%;
+    left: 42%;
+}
+#btn1:active {
+    background-color: darkblue;
+    transform: scale(0.95);
 }
 #btn2 {
-    left: 50%;
+    left: 52%;
 }
