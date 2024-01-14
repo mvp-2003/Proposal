@@ -3,7 +3,7 @@ body {
 }
 #myTextbox {
     position: absolute;
-    font-family: 'Lucida Sans Unicode';
+    font-family: 'Garamond', serif;
     font-size: 24px;
     top: 48%;
     left: 50%;
