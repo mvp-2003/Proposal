@@ -3,7 +3,7 @@ body {
 }
 #myTextbox {
     position: absolute;
-    top: 50%;
+    top: 48%;
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
@@ -14,7 +14,7 @@ body {
 }
 #btn1, #btn2 {
     position: absolute;
-    top: 60%;
+    top: 55%;
     width: 70px;
     height: 30px;
     background-color: dodgerblue;
@@ -22,8 +22,8 @@ body {
     transition: .5s;
 }
 #btn1 {
-    left: 40%;
+    left: 45%;
 }
 #btn2 {
-    left: 60%;
+    left: 50%;
 }
