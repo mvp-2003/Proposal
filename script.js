@@ -7,6 +7,7 @@ button2.addEventListener('mouseover', function() {
 document.getElementById('btn1').addEventListener('click', function() {
     alert('You clicked Yes!');
 });
+
 function createHeart() {
     const heart = document.createElementNS("http://www.w3.org/2000/svg", "svg");
     heart.setAttribute("viewBox", "0 0 32 29.6");
