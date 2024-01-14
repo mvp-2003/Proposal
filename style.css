@@ -35,3 +35,22 @@ body {
 #btn2 {
     left: 52%;
 }
+.heart {
+    position: absolute;
+    width: 50px;
+    height: 50px;
+    fill: red;
+    animation: float 10s ease-in-out infinite; /* Increase the duration to 10s for slower animation */
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0px);
+    }
+    50% {
+        transform: translateY(-20px);
+    }
+    100% {
+        transform: translateY(0px);
+    }
+}
