@@ -4,53 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Proposal</title>
-    <style>
-        body {
-            background-color: pink;
-        }
-        #myTextbox {
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            text-align: center;
-            font-size: 24px;
-            background-color: white;
-            padding: 20px;
-            border-radius: 15px;
-        }
-        #btn1, #btn2 {
-            position: absolute;
-            top: 60%;
-            width: 70px;
-            height: 30px;
-            background-color: dodgerblue;
-            padding: 10px;
-            transition: .5s;
-        }
-        #btn1 {
-            left: 45%;
-        }
-        #btn2 {
-            left: 50%;
-        }
-    </style>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
     <div id="myTextbox">Will you be my girlfriend?</div>
     <button id="btn1">Yes</button>
     <button id="btn2">No</button>
 
-    <script>
-    const button2 = document.getElementById('btn2');
-    button2.addEventListener('mouseover', function() {
-        button2.style.left = `${Math.ceil(Math.random() * 90)}%`;
-        button2.style.top = `${Math.ceil(Math.random() * 90)}%`;
-    });
-
-    document.getElementById('btn1').addEventListener('click', function() {
-        alert('You clicked Yes!');
-    });
-    </script>
+    <script src="script.js"></script>
 </body>
 </html>
