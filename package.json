@@ -1,5 +1,6 @@
 {
   "dependencies": {
     "gh-pages": "^6.1.1"
-  }
+  },
+  "homepage": "https://github.com/mvp-2003.github.io/JAW"
 }
