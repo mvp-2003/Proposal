@@ -9,6 +9,15 @@ document.getElementById('btn1').addEventListener('click', function() {
     const originalColor = btn1.style.backgroundColor;
     btn1.style.backgroundColor = 'red';
 
+    const myTextbox = document.getElementById('myTextbox');
+    myTextbox.innerHTML = "I love you " + String.fromCodePoint(0x1F339);
+    myTextbox.style.backgroundColor = 'pink';
+    myTextbox.style.color = 'red';
+    myTextbox.style.fontSize = '50px';
+    myTextbox.style.fontWeight = 'bold';
+    myTextbox.style.textAlign = 'center';
+    myTextbox.style.fontFamily = 'Georgia';
+
     setTimeout(function() {
         btn1.style.backgroundColor = originalColor;
     }, 3000);
